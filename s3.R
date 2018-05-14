@@ -1,0 +1,7 @@
+library(ahp)
+mackAhp <- Load('C:/Users/rafku/Documents/do r/ahp.ahp')
+Calculate(mackAhp)
+print(mackAhp, priority = function(x) x$sparent$priority["total", x$name])
+Visualize(mackAhp)
+Analyze(mackAhp)
+AnalyzeTable(mackAhp)
